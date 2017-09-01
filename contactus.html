@@ -23,7 +23,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="./index.html">Ristorante Con Fusion</a>
+            <a class="navbar-brand" href="./index.html"><img src="img/logo.png" class="image-fluid" height="30" width="41"></a>
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
@@ -42,7 +42,8 @@
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col col-sm">
+                <div class="col col-sm align-self-center">
+                    <img src="img/logo.png" class="image-fluid">
                 </div>
             </div>
         </div>
@@ -94,11 +95,69 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                Form goes here
+                <form>
+                    <div class="from-group row">
+                        <label for="firstname" class="col-md-2 col-form-label">First Name</label> 
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">    
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="Email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="Email" class="form-control" id="Email" name="Email" placeholder="Email-Id">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="phone" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-sm4 col-md-3">
+                            <div class="input-group">
+                                <div class="input-group-addon">(</div>
+                                <input type="Tel." class="form-control" id="area-code" name="area-code" placeholder="Area Code">
+                                <div class="input-group-addon">)</div>
+                            </div>
+                        </div>
+                        <div class="col-5 col-sm-6 col-md-7">
+                            <input type="Tel." class="form-control" id="phone" name="phone" placeholder="Tel. Number">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="form-check col-md-6 offset-md-2">
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" name="approve" value=""><strong>May we contact you?</strong>
+                            </label>
+                        </div>
+                        <div class="form-select col-md-3 offset-md-1">
+                            <select class="form-control">
+                                <option>Tel.</option>
+                                <option>Email</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id=feedback name="feedback" placeholder="Feedback" rows="12"></textarea>
+                        </div>   
+                    </div>
+                    <div class=" form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">
+                                Send Feedback
+                            </button>
+                        </div>    
+                    </div>
+                </form>
             </div>
              <div class="col-12 col-md">
             </div>
-       </div>
+     </div>
 
     </div>
 
